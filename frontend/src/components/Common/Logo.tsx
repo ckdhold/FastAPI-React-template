@@ -3,14 +3,14 @@ import { Link } from "@tanstack/react-router"
 import { useTheme } from "@/components/theme-provider"
 import { cn } from "@/lib/utils"
 
-const LOGO_DARK = {
-  full: "http://cfmoto-evow.oss-cn-hangzhou.aliyuncs.com/AdminFiles/logo2.png",
-  icon: "http://cfmoto-evow.oss-cn-hangzhou.aliyuncs.com/AdminFiles/logo2W.png",
+const LOGO_LIGHT = {
+  full: "/assets/images/logo-full.svg",
+  icon: "/assets/images/favicon.svg",
 }
 
-const LOGO_LIGHT = {
-  full: "http://cfmoto-evow.oss-cn-hangzhou.aliyuncs.com/AdminFiles/cfomtoBB.png",
-  icon: "http://cfmoto-evow.oss-cn-hangzhou.aliyuncs.com/AdminFiles/cfmotoLogo.png",
+const LOGO_DARK = {
+  full: "/assets/images/logo-full-dark.svg",
+  icon: "/assets/images/favicon.svg",
 }
 
 interface LogoProps {
@@ -32,15 +32,15 @@ export function Logo({
       <>
         <img
           src={logos.full}
-          alt="CFMOTO"
+          alt="FastAPI React Template"
           className={cn(
-            "h-7 w-auto max-w-[140px] object-contain group-data-[collapsible=icon]:hidden",
+            "h-7 w-auto max-w-[180px] object-contain object-left group-data-[collapsible=icon]:hidden",
             className,
           )}
         />
         <img
           src={logos.icon}
-          alt="CFMOTO"
+          alt="FastAPI React Template"
           className={cn(
             "hidden size-7 object-contain group-data-[collapsible=icon]:block",
             className,
@@ -50,10 +50,10 @@ export function Logo({
     ) : (
       <img
         src={variant === "full" ? logos.full : logos.icon}
-        alt="CFMOTO"
+        alt="FastAPI React Template"
         className={cn(
           variant === "full"
-            ? "h-7 w-auto max-w-[140px] object-contain"
+            ? "h-7 w-auto max-w-[180px] object-contain object-left"
             : "size-7 object-contain",
           className,
         )}
