@@ -1,0 +1,262 @@
+{
+  "common": {
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑",
+    "email": "邮箱",
+    "password": "密码",
+    "description": "描述",
+    "title": "标题",
+    "actions": "操作",
+    "continue": "继续",
+    "user": "用户",
+    "na": "无",
+    "required": "必填"
+  },
+  "theme": {
+    "appearance": "外观",
+    "toggleTheme": "切换主题",
+    "light": "浅色",
+    "dark": "深色",
+    "system": "跟随系统"
+  },
+  "language": {
+    "label": "语言",
+    "en": "English",
+    "zh": "中文",
+    "loginHint": "界面语言",
+    "settingsHint": "界面语言"
+  },
+  "footer": {
+    "tagline": "FastAPI 全栈脚手架 - {{year}}"
+  },
+  "sidebar": {
+    "dashboard": "工作台",
+    "items": "条目",
+    "admin": "管理"
+  },
+  "userMenu": {
+    "settings": "用户设置",
+    "logOut": "退出登录"
+  },
+  "login": {
+    "title": "登录你的账号",
+    "emailPlaceholder": "user@example.com",
+    "passwordPlaceholder": "密码",
+    "forgotPassword": "忘记密码？",
+    "submit": "登录",
+    "noAccount": "还没有账号？",
+    "signUp": "注册"
+  },
+  "signup": {
+    "title": "创建账号",
+    "fullName": "姓名",
+    "fullNamePlaceholder": "用户",
+    "emailPlaceholder": "user@example.com",
+    "passwordPlaceholder": "密码",
+    "confirmPassword": "确认密码",
+    "confirmPasswordPlaceholder": "确认密码",
+    "submit": "注册",
+    "hasAccount": "已有账号？",
+    "logIn": "登录"
+  },
+  "recoverPassword": {
+    "title": "找回密码",
+    "remember": "想起密码了？",
+    "logIn": "登录",
+    "toastSuccess": "密码找回邮件已发送"
+  },
+  "resetPassword": {
+    "title": "重置密码",
+    "newPassword": "新密码",
+    "newPasswordPlaceholder": "新密码",
+    "confirmPassword": "确认密码",
+    "confirmPasswordPlaceholder": "确认密码",
+    "submit": "重置密码",
+    "remember": "想起密码了？",
+    "logIn": "登录",
+    "toastSuccess": "密码已更新"
+  },
+  "dashboard": {
+    "greeting": "你好，{{name}} 👋",
+    "welcome": "欢迎回来！"
+  },
+  "itemsPage": {
+    "title": "条目",
+    "subtitle": "创建并管理你的条目",
+    "emptyTitle": "你还没有任何条目",
+    "emptySubtitle": "添加一个新条目开始使用"
+  },
+  "items": {
+    "addItem": "添加条目",
+    "addTitle": "添加条目",
+    "addDescription": "填写信息以添加新条目。",
+    "editTitle": "编辑条目",
+    "editDescription": "在下方更新条目信息。",
+    "editMenu": "编辑条目",
+    "deleteMenu": "删除条目",
+    "deleteTitle": "删除条目",
+    "deleteDescription": "该条目将被永久删除。确定吗？此操作无法撤销。",
+    "toastCreated": "条目已创建",
+    "toastUpdated": "条目已更新",
+    "toastDeleted": "条目已删除",
+    "titleLabel": "标题",
+    "noDescription": "暂无描述"
+  },
+  "itemsTable": {
+    "id": "ID",
+    "title": "标题",
+    "description": "描述",
+    "copyId": "复制 ID"
+  },
+  "adminPage": {
+    "title": "用户",
+    "subtitle": "管理用户账号与权限"
+  },
+  "rbacPage": {
+    "title": "权限与角色",
+    "subtitle": "定义权限、角色，以及用户所属角色",
+    "backToUsers": "返回用户列表",
+    "permissionsTitle": "权限",
+    "permissionsHint": "API 使用的固定权限码集合。",
+    "rolesTitle": "角色",
+    "rolesHint": "系统内置角色不可删除；可为任意角色勾选权限。",
+    "newRolePlaceholder": "新角色名称",
+    "createRole": "创建角色",
+    "editPermissions": "编辑权限",
+    "noPermissions": "无权限",
+    "assignTitle": "为用户分配角色",
+    "assignHint": "选择用户，勾选角色后保存。",
+    "selectUser": "用户",
+    "selectUserPlaceholder": "选择用户",
+    "selectRoles": "角色",
+    "columnCode": "权限码",
+    "columnName": "名称",
+    "dialogTitle": "角色权限：{{name}}",
+    "confirmDeleteRole": "确定删除该角色？已分配该角色的用户将失去对应权限。",
+    "toastRolePermissionsUpdated": "角色权限已更新",
+    "toastRoleCreated": "角色已创建",
+    "toastRoleDeleted": "角色已删除",
+    "toastUserRolesUpdated": "用户角色已更新"
+  },
+  "menusPage": {
+    "createTitle": "新增菜单",
+    "createHint": "路径需与前端路由一致。",
+    "editTitle": "编辑菜单",
+    "listTitle": "菜单列表",
+    "listHint": "侧栏可见性由下方角色分配控制。",
+    "path": "路径",
+    "titleZh": "中文标题",
+    "titleEn": "英文标题",
+    "titleZhPlaceholder": "条目",
+    "titleEnPlaceholder": "Items",
+    "icon": "图标（Lucide）",
+    "sort": "排序",
+    "roles": "角色",
+    "rolesDialogTitle": "该菜单的角色",
+    "rolesDialogTitleWithName": "「{{name}}」的角色",
+    "confirmDelete": "确定删除该菜单？",
+    "toastCreated": "菜单已创建",
+    "toastUpdated": "菜单已更新",
+    "toastDeleted": "菜单已删除",
+    "toastRolesUpdated": "菜单角色已更新"
+  },
+  "admin": {
+    "addUser": "新增用户",
+    "editUser": "编辑用户",
+    "deleteUser": "删除用户",
+    "deleteConfirm": "该用户将被永久删除，确定继续吗？",
+    "columnFullName": "姓名",
+    "columnEmail": "邮箱",
+    "columnRoles": "RBAC 角色",
+    "columnRole": "角色",
+    "columnStatus": "状态",
+    "badgeYou": "当前用户",
+    "roleSuperuser": "超级管理员",
+    "roleUser": "普通用户",
+    "statusActive": "启用",
+    "statusInactive": "停用",
+    "toastCreated": "用户创建成功",
+    "toastUpdated": "用户更新成功",
+    "toastDeleted": "用户已删除"
+  },
+  "settingsPage": {
+    "title": "用户设置",
+    "subtitle": "管理你的账号设置与偏好",
+    "tabProfile": "我的资料",
+    "tabPassword": "密码",
+    "tabDanger": "危险操作"
+  },
+  "userInformation": {
+    "sectionTitle": "个人信息",
+    "fullName": "姓名",
+    "email": "邮箱",
+    "save": "保存",
+    "cancel": "取消",
+    "edit": "编辑",
+    "toastUpdated": "用户信息已更新"
+  },
+  "changePassword": {
+    "sectionTitle": "修改密码",
+    "currentPassword": "当前密码",
+    "newPassword": "新密码",
+    "confirmPassword": "确认密码",
+    "dotsPlaceholder": "••••••••",
+    "submit": "更新密码",
+    "toastSuccess": "密码已更新"
+  },
+  "deleteAccount": {
+    "title": "删除账号",
+    "description": "永久删除你的账号及所有关联数据。",
+    "button": "删除账号",
+    "dialogTitle": "需要确认",
+    "dialogDescription": "你的所有账号数据将被永久删除。若确定继续，请点击「确认」。此操作不可恢复。",
+    "toastSuccess": "账号已成功删除"
+  },
+  "dataTable": {
+    "noResults": "无数据"
+  },
+  "errorPage": {
+    "title": "出错了",
+    "description": "发生了意外错误，请重试。",
+    "retry": "重试"
+  },
+  "notFound": {
+    "code": "404",
+    "heading": "页面不存在",
+    "message": "你访问的页面未找到。",
+    "goBack": "返回",
+    "title": "页面不存在",
+    "description": "你访问的页面未找到。",
+    "back": "返回"
+  },
+  "toast": {
+    "error": "操作失败"
+  },
+  "validation": {
+    "invalidEmail": "邮箱格式不正确",
+    "emailInvalid": "邮箱格式不正确",
+    "passwordRequired": "请输入密码",
+    "passwordMin": "密码至少 8 位",
+    "passwordConfirmRequired": "请确认密码",
+    "passwordsMismatch": "两次密码不一致",
+    "passwordMismatch": "两次密码不一致",
+    "titleRequired": "标题不能为空"
+  },
+  "errors": {
+    "generic": "出错了，请稍后重试"
+  },
+  "meta": {
+    "login": "登录",
+    "signup": "注册",
+    "recover": "找回密码",
+    "reset": "重置密码",
+    "dashboard": "工作台",
+    "items": "条目",
+    "admin": "管理",
+    "rbac": "权限与角色",
+    "menus": "菜单管理",
+    "settings": "设置"
+  }
+}
